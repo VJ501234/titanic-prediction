@@ -25,6 +25,7 @@ This project currently uses:
 - pandas
 - matplotlib
 - seaborn
+- tensorflow
 - os
 Recommended environment:
 
@@ -42,7 +43,7 @@ python -m pip install [dependency name]
 
 - `main.ipynb`: Main notebook for data exploration, feature work, training, and evaluation.
 - `train.csv`: Kaggle Titanic training dataset used in this project.
-- `test.csv`: Kaggle Titanic test dataset for final predictions.
+- `test.csv`: Kaggle Titanic test dataset to check accuracy
 - `README.md`: Project documentation.
 
 ## How To Run
