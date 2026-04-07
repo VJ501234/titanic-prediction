@@ -4,6 +4,9 @@ venv/
 env/
 ENV/
 .venv311/
+venv311/
+.venv311/**
+venv311/**
 
 # Python cache and bytecode
 __pycache__/
