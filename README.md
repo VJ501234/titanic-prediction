@@ -30,7 +30,7 @@ This project currently uses:
 Recommended environment:
 
 - Python 3.10+
-- pip
+- pip / pip3
 - Jupyter Notebook or VS Code Notebook support
 
 Install dependencies with:
