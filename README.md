@@ -10,6 +10,14 @@ Co-made by btfcookies and VJ50.
 The goal of this project is to predict passenger survival on the Titanic using supervised machine learning.
 All analysis and modeling are done in the notebook `main.ipynb` using the provided training data in `train.csv`.
 
+## Data Preparation
+
+The project includes a preprocessing pipeline that:
+
+- **Normalizes passenger names**: Tokenizes and cleans names (e.g., "Braund, Mr. Owen Harris" → "Braund Mr Owen Harris")
+- **Extracts ticket prefixes**: Separates ticket codes from ticket numbers (e.g., "STON/O2. 3101282" → prefix: "STON/O2.", number: "3101282")
+- **Creates derived features**: Generates `Ticket_number`, `Ticket_item`, and cleaned `Name` columns
+
 ## Dependencies
 
 This project currently uses:
@@ -17,6 +25,7 @@ This project currently uses:
 - pandas
 - matplotlib
 - seaborn
+- os
 Recommended environment:
 
 - Python 3.10+
@@ -33,6 +42,7 @@ python -m pip install [dependency name]
 
 - `main.ipynb`: Main notebook for data exploration, feature work, training, and evaluation.
 - `train.csv`: Kaggle Titanic training dataset used in this project.
+- `test.csv`: Kaggle Titanic test dataset for final predictions.
 - `README.md`: Project documentation.
 
 ## How To Run
