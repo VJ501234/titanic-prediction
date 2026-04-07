@@ -16,7 +16,7 @@ This project currently uses:
 
 - pandas
 - matplotlib
-
+- seaborn
 Recommended environment:
 
 - Python 3.10+
@@ -26,7 +26,7 @@ Recommended environment:
 Install dependencies with:
 
 ```bash
-python -m pip install pandas matplotlib
+python -m pip install [dependency name]
 ```
 
 ## Project Structure
