@@ -25,7 +25,7 @@ This project currently uses:
 - pandas
 - matplotlib
 - seaborn
-- tensorflow
+- tensorflow + tensorflow_decision_forests
 - os
 Recommended environment:
 
